@@ -42,10 +42,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser" timestamp="1607248530889">
+    <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser" timestamp="1607259200340">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.406.1440.860@0.0.2560.1400" timestamp="1607248530889" />
+    <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.406.1440.860@0.0.2560.1400" timestamp="1607259200340" />
+    <state x="693" y="333" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607258828495">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="693" y="333" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400/2560.406.1440.860@0.0.2560.1400" timestamp="1607258828495" />
     <state x="986" y="441" key="FileChooserDialogImpl" timestamp="1607252568055">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

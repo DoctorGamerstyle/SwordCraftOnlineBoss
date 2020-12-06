@@ -1,7 +1,7 @@
 package eu.ffliss.scoBoss.listener;
 
 import eu.ffliss.scoBoss.Main;
-import eu.ffliss.scoBoss.entity.CustomEntity;
+import eu.ffliss.scoBoss.entity.CustomZombie;
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -20,9 +20,8 @@ public class EntityDamageEventListener implements Listener {
             return;
         }
 
-        CustomEntity customEntity = Main.getInstance().getHandler().getCustomEntity(event.getEntity().getUniqueId().toString());
-        customEntity.addDamage((float) event.getDamage());
-        Bukkit.broadcastMessage(customEntity.getHealth() + "");
+        CustomZombie customZombie = Main.getInstance().getHandler().getCustomEntity(event.getEntity().getUniqueId().toString());
+        customZombie.addDamage((float) event.getDamage());
 
     }
 }

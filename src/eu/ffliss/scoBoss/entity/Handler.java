@@ -7,17 +7,14 @@ import java.util.HashMap;
 
 public class Handler {
 
-    private HashMap<String, CustomEntity> customEntitys = new HashMap<>();
+    private HashMap<String, CustomZombie> customEntitys = new HashMap<>();
 
     public void createNewEntity(Location location, String name, float health){
-        CustomEntity customEntity = new CustomEntity(location, name, health);
-        Bukkit.broadcastMessage(health + " soll");
-        Bukkit.broadcastMessage( customEntity.getHealth() + " hat");
-
-        customEntitys.put(customEntity.getUniqueID().toString(), customEntity);
+        CustomZombie customZombie = new CustomZombie(location, name, health);
+        customEntitys.put(customZombie.getUniqueID().toString(), customZombie);
     }
 
-    public CustomEntity getCustomEntity(String uuid){
+    public CustomZombie getCustomEntity(String uuid){
         return customEntitys.get(uuid);
     }
 
