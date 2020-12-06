@@ -1,0 +1,6 @@
+name: SCOBoss
+version: 1.0
+author: DoctorGamerstyle
+main: eu.ffliss.scoBoss.Main
+commands:
+  spawn:
